@@ -1,0 +1,25 @@
+.product {
+	max-width: 300px;
+	border: 1px solid rgb(195, 189, 189);
+	padding: 8px;
+	border-radius: 8px;
+	position: relative;
+	padding-bottom: 40px;
+}
+.product img {
+	max-width: 286px;
+	height: 286px;
+	border-radius: 8px;
+}
+.product-details {
+	margin-top: 10px;
+}
+.btn-cart {
+	width: 100%;
+	background: #ffe0b3;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
