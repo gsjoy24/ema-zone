@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../assets/images/Logo.svg';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -12,10 +13,18 @@ const Header = () => {
 
 			{/* navigation */}
 			<nav>
-				<a href='/order'>Order</a>
-				<a href='/review'>Order Review</a>
-				<a href='/inventory'>Manage Inventory</a>
-				<a href='/login'>Login</a>
+				<NavLink className={({ isActive }) => (isActive ? 'active' : '')} to='/'>
+					Shop
+				</NavLink>
+				<NavLink className={({ isActive }) => (isActive ? 'active' : '')} to='/order'>
+					Order Review
+				</NavLink>
+				<NavLink className={({ isActive }) => (isActive ? 'active' : '')} to='/inventory'>
+					Inventory
+				</NavLink>
+				<NavLink className={({ isActive }) => (isActive ? 'active' : '')} to='/login'>
+					Login
+				</NavLink>
 			</nav>
 		</div>
 	);
