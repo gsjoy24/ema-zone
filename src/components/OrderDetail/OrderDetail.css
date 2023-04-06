@@ -1,0 +1,40 @@
+.single-detail {
+	max-width: 500px;
+	padding: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #dc980f;
+	border-radius: 10px;
+}
+.single-detail img {
+	width: 90px;
+	height: 90px;
+	margin-right: 20px;
+}
+.product-name {
+	margin: 5px 0;
+}
+.detail-info {
+	flex-grow: 1;
+}
+
+.btn-delete {
+	width: 55px;
+	height: 55px;
+	display: flex;
+   font-size: 25px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #ff00006b;
+	color: #e23c3c;
+}
+
+.single-detail p {
+	margin: 0;
+}
+
+.orange-text {
+	color: #c88704cb;
+}
