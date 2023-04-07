@@ -8,3 +8,13 @@
 .cart h2 {
 	text-align: center;
 }
+.btn-clear-cart{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 5px auto;
+	background-color: #ff0101a6;
+	color: #fff;
+	border-radius: 7px;
+}

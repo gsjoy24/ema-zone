@@ -1,4 +1,4 @@
-.single-detail {
+.review-item {
 	max-width: 500px;
 	padding: 10px;
 	margin-bottom: 20px;
@@ -7,7 +7,7 @@
 	border: 1px solid #dc980f;
 	border-radius: 10px;
 }
-.single-detail img {
+.review-item img {
 	width: 90px;
 	height: 90px;
 	margin-right: 20px;
@@ -15,7 +15,7 @@
 .product-name {
 	margin: 5px 0;
 }
-.detail-info {
+.review-info {
 	flex-grow: 1;
 }
 
@@ -31,10 +31,11 @@
 	color: #e23c3c;
 }
 
-.single-detail p {
-	margin: 0;
+.review-item p {
+	margin: 5px 0;
+	
 }
 
 .orange-text {
-	color: #c88704cb;
+	color: #FF9900;
 }

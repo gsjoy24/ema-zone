@@ -1,5 +1,5 @@
 .product {
-	max-width: 300px;
+	max-width: 250px;
 	border: 1px solid rgb(195, 189, 189);
 	padding: 8px;
 	border-radius: 8px;
@@ -7,8 +7,8 @@
 	padding-bottom: 40px;
 }
 .product img {
-	max-width: 276px;
-	height: 276px;
+	max-width: 250px;
+	height: 250px;
 	border-radius: 8px;
 }
 .product-details {
