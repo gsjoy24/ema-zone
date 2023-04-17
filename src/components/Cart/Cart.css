@@ -8,7 +8,7 @@
 .cart h2 {
 	text-align: center;
 }
-.btn-clear-cart{
+.btn-clear-cart {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

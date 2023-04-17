@@ -15,6 +15,7 @@
 nav {
 	display: flex;
 	gap: 20px;
+	align-items: center;
 }
 nav a {
 	color: #fff;
@@ -23,4 +24,13 @@ nav a {
 .active,
 nav a:hover {
 	color: #ff9900;
+}
+.text-white{
+	color: #fff;
+}
+.sign-out-btn{
+	padding: 10px 6px;
+	border-radius: 4px;
+	background-color: #ff9900;
+	color:#fff ;
 }

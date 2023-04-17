@@ -1,0 +1,29 @@
+.form-control {
+	max-width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #888;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.form-control input {
+	width: 100%;
+	padding: 12px 5px;
+	font-size: 18px;
+	margin-top: 4px;
+	border-radius: 5px;
+	border: 1px solid #222;
+}
+.title {
+	text-align: center;
+	color: #333;
+}
+small,
+.err-text {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+}
+.err-text {
+	color: rgb(216, 17, 17);
+}
